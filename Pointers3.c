@@ -19,7 +19,7 @@ int main()
 	*p = 20;
 	printf("The value of x:  %d\n", *p);
 	printf("The value of x:  %d\n", x); //In both cases X was changed
-
+	
 
 	return 0;
 }
