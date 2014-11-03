@@ -14,7 +14,7 @@ int main()
 	*pG = 15;
 	printf("value of *pG (Good): %d\n", *pG); 
 
-	free(pG);	/*Frees the memory weve allocated for pG*/
+	free(pG);	/*Frees the memory weve allocated for other processes to use since were done with it*/
 
 	return 0;
 }
@@ -31,12 +31,9 @@ Malloc lets us allocate memory and free it unlike the above example that would l
 to fuckk wit
 */
 int* good_new_integer(void){
-	int *p = malloc(sizeof(int)); /*We need to allocate the size of an integer than what better amount to allocate than the size of the integer*/
+	int *p = malloc(sizeof *p); /*We need to allocate the size of an integer than what better amount to allocate than the size of the integer*/
 	return p;	/*If all goes well this will return a pointer which will get implicitely converted to a pointer to int*/
 }
-
-
-
 
 /* Fn Description:
 
