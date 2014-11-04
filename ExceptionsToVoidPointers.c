@@ -22,6 +22,7 @@ int main(){
 	vPoint = &
 
 //Left off at 18:37
+https://www.youtube.com/watch?v=3JX6TyLOmGQ&list=PLBOteIRkQeZ2TpQT0_JoJeG_raDXa2RG5&index=11
 
 
 
